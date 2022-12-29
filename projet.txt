@@ -1,0 +1,16 @@
+Je vais donc essayer de créer une calculatrice en Pyhton
+
+1. D'abord essayer des opérations basiques en console (+ - / * ...)
+    -seulement deux termes
+    -les nombres et l'opération sont pris en arguments d'une fonction
+
+2. Essayer ces mêmes opérations avec plus de termes (autant qu'on veut dans l'idéal)
+
+3. Essayer des opérations plus compliquées (sqrt, puissances...)
+
+
+
+Idée pour écrire directement une expression complète :
+    -écrire l'expression en console
+    -utiliser un split espace pour séparer les nombres et les opérations
+    -utiliser une liste pour récupérer les arguments

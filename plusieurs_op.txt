@@ -1,0 +1,29 @@
+def operations (param num1)
+
+    resultat <- num1
+
+    lire operation
+
+    lire num2
+
+    selon operation:
+
+        cas + :
+            result = result + num2
+            appeler operations (param result)
+        cas - :
+            result = result - num2
+            appeler operations (param result)
+        cas * :
+            result = result * num2
+            appeler operations (param result)
+        cas / :
+            result = result / num2
+            appeler operations (param result)
+        cas = :
+            renvoyer result
+
+
+lire num
+
+appeler operation param num
